@@ -236,15 +236,66 @@
                             alt="linkedin"></a></li>
             </ul>
         </div>
+        <div class="footer-subscribe">
+            <h3>Subscribe</h3>
+            <div class="footer-subscribe-item">
+            <input class="footer-email" type="email" placeholder="E-mail" name="email">
+            <button type="submit" class="footer-submit">
+                Subscribe
+                <svg>
+                    <use href="images/icons/iconsclient.svg#icon-send"></use>
+                </svg>
+            </button>
+            </div>
+        </div>
         </div>
     </footer>
     <div class="modal is-hidden" data-modal>
         <div class="modal-content">
+            <h2 class="modal-heading">Leave your information and we will call you back</h2>
+            <form class="modal-contact">
+                <label class="modal-contact-label">
+                    <span class="modal-contact-span">Name</span>
+                    <input type="text" name="full_name">
+                    <svg class="modal-icon">
+                        <use href="images/icons/iconsclient.svg#icon-person"></use>
+                    </svg>
+                </label>
+                <label class="modal-contact-label">
+                    <span class="modal-contact-span">Phone</span>
+                    <input type="tel" name="phone">
+                    <svg class="modal-icon">
+                        <use href="images/icons/iconsclient.svg#icon-phone"></use>
+                    </svg>
+                </label>
+                <label class="modal-contact-label">
+                    <span class="modal-contact-span">E-mail</span>
+                    <input type="email" name="email">
+                    <svg class="modal-icon">
+                        <use href="images/icons/iconsclient.svg#icon-email"></use>
+                    </svg>
+                </label>
+                <label class="modal-comment modal-contact-label">
+                    <span class="modal-contact-span">Comments</span>
+                    <textarea name="Comments" placeholder="Text input" rows="10"></textarea>
+                </label>
+                <label class="modal-checkbox">
+                    <input type="checkbox" name="agree">
+                    <svg class="modal-checkmark">
+                        <use href="images/icons/iconsclient.svg#icon-Property-1click"></use>
+                    </svg>
+                    I accept the terms and conditions of the &nbsp;<a href="#" class="modal-policy">Privacy Policy</a>
+                </label>
+                <button type="submit" class="modal-contact-send">Send</button>
+
+            </form>
             <button type="button" class="modal-close" data-modal-close>
-                <img src="images/icons/close-black.svg" alt="close button">
+                <svg class="modal-closemark">
+                    <use href="images/icons/iconsclient.svg#icon-close"></use>
+                </svg>
             </button>
 
-        </div>
+         </div>
 
     </div>
     <script src="js/modal.js"></script>
